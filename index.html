@@ -111,9 +111,9 @@
           After that collecting, processing events and executing queued
           sub-tasks. JavaScript is single-threaded, but the browser APIs act as
           separate threads. The event loop make this process easy and it
-          constantly checks whether or not the call stack is empty. If it is
-          empty then new functions are added from the event queue. If it's not
-          empty, then the current function call is processed.
+          constantly checks whether or not the call stack is empty. If the call
+          stack is empty then new functions are added from the event queue. If
+          it's not empty, then the current function call is processed.
         </p>
       </div>
     </section>
