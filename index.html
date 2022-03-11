@@ -88,7 +88,7 @@
         <h1>Reported posts</h1>
       </div>
     </main>
-    <section class="container mt-4">
+    <section class="container mt-4" id="ques">
       <div>
         <h3>How does JS work <span class="text-danger">?</span></h3>
         <p>
@@ -101,6 +101,19 @@
           Where we can check type safety at the runtime. It is a high-level
           language because it does'n require direct interaction with the
           operating system and hardware.
+        </p>
+      </div>
+      <div class="mb-4 mt-4">
+        <h3>What does event loop do <span class="text-danger">?</span></h3>
+        <p>
+          <span class="text-primary">ANS:</span> JavaScript has a runtime model
+          based on an event loop and it is responsible for executing the code.
+          After that collecting, processing events and executing queued
+          sub-tasks. JavaScript is single-threaded, but the browser APIs act as
+          separate threads. The event loop make this process easy and it
+          constantly checks whether or not the call stack is empty. If it is
+          empty then new functions are added from the event queue. If it's not
+          empty, then the current function call is processed.
         </p>
       </div>
     </section>
